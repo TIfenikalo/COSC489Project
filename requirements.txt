@@ -1,1 +1,36 @@
+# ---------------------------------------------
+# PYTHON LIBRARIES (install with pip)
+# ---------------------------------------------
+
+scapy==2.5.0          # For packet crafting and network analysis
+pywifi==1.1.11        # To manage Wi-Fi interfaces (mostly useful on Windows)
+colorama==0.4.6       # For colorful terminal output (optional)
+tabulate==0.9.0       # For printing formatted tables (optional)
+argcomplete==3.1.1    # Adds CLI tab-completion (optional)
+
+# ---------------------------------------------
+# SYSTEM REQUIREMENTS (install manually)
+# ---------------------------------------------
+
+# Operating System:
+#   - Kali Linux (or another Debian-based Linux with monitor mode support)
+#
+# Required Tools (install with apt):
+#   - aircrack-ng
+#   - airmon-ng
+#   - airodump-ng
+#   - aireplay-ng
+
+# Install on Kali:
+# sudo apt update
+# sudo apt install aircrack-ng
+
+# Required Hardware:
+#   - Wireless adapter that supports monitor mode and packet injection
+#     (e.g., Alfa AWUS036ACH or TP-Link TL-WN722N v1)
+
+# Required Wordlist:
+#   - rockyou.txt (usually pre-installed on Kali in /usr/share/wordlists/)
+#     If compressed, unzip it:
+#     gunzip /usr/share/wordlists/rockyou.txt.gz
 
