@@ -2,6 +2,9 @@
 
 ## Overview
 This tool captures WPA/WPA2 handshakes and attempts password cracking using Aircrack-ng. **Use ethically and legally.**
+Wi-Fi Security Auditing Tool
+A Ethhical Hacking Project
+Contributors: Antonio Jackson, Titorian Huggins, Tobiloba Ifenikalo
 
 ## Features
 - Enable monitor mode
@@ -10,14 +13,21 @@ This tool captures WPA/WPA2 handshakes and attempts password cracking using Airc
 - Perform optional deauthentication
 - Crack handshake using rockyou.txt wordlist
 
-## Setup Instructions
-1. Install dependencies:
-   ```bash
-   sudo apt install aircrack-ng
-   pip install -r requirements.txt
+## System Requirements
+-OS: Kali Linux (or Debian-based Linux)
+-Python 3.x
+-Wireless Adapter that supports monitor mode and packet injection (e.g., Alfa AWUS036ACH)
+-Wordlist: rockyou.txt (found at /usr/share/wordlists/ on Kali)
 
-2. Run the tool
-   python3 src/main.py
+## Setup Instructions
+1. git clone https://github.com/TIfenikalo/COSC489Project.git
+cd COSC489Project
+2. pip install -r requirements.txt
+3. sudo apt update
+sudo apt install aircrack-ng
+
+
+
 
 Folder Structure
 COSC489Project/
