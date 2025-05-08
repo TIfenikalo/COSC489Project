@@ -19,3 +19,21 @@ This tool captures WPA/WPA2 handshakes and attempts password cracking using Airc
 2. Run the tool
    python3 src/main.py
 
+Folder Structure
+COSC489Project/
+├── docs/
+│   └── ethical-guidelines.md
+├── src/
+│   └── main.py
+├── tests/
+│   └── test_dummy.py
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+Ethical Considerations
+Do NOT test on networks you don’t own or have explicit permission to test.
+
+This tool is for educational and ethical hacking purposes only.
+
+
