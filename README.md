@@ -24,7 +24,7 @@ Contributors: Antonio Jackson, Titorian Huggins, Tobiloba Ifenikalo
 cd COSC489Project
 2. pip install -r requirements.txt
 3. sudo apt update
-sudo apt install aircrack-ng
+4. sudo apt install aircrack-ng
 
 
 
