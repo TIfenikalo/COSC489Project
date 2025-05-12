@@ -26,7 +26,7 @@ argcomplete==3.1.1    # Adds CLI tab-completion (optional)
 # sudo apt upgrade
 # sudo apt install aircrack-ng
 
-# If the Network Adapter is Not Recognized
+# If an ALFA Network Adapter is Not Recognized 
 # 1. sudo apt install -y linux-headers-$(uname -r) build-essential bc dkms git libelf-dev rfkill iw
 # 2. mkdir -p ~/src
 # 3. cd ~/src
