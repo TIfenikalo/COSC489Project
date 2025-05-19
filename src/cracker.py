@@ -1,3 +1,4 @@
+#This implements the rockyou file to crack passwords
 from utils import run_command
 
 def crack_password(filename):
