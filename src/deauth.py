@@ -1,3 +1,4 @@
+#To speed up the handshake proccess deauthenticating users may help
 from utils import run_command
 
 def deauth_clients(bssid):
