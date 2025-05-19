@@ -1,3 +1,4 @@
+#in charge of changing the wlan0 into monitor mode
 from utils import run_command
 
 def start_monitor():
