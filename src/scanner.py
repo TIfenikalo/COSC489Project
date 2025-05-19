@@ -1,3 +1,4 @@
+#In charge of searching for  wifi access points nearby
 from utils import run_command
 
 def scan_for_aps():
